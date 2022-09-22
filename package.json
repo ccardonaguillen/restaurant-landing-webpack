@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-landing-webpack",
+  "version": "1.0.0",
+  "description": "Landing page for a fictional restaurant to practice using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccardonaguillen/restaurant-landing-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccardonaguillen/restaurant-landing-webpack/issues"
+  },
+  "homepage": "https://github.com/ccardonaguillen/restaurant-landing-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}
